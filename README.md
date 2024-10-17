@@ -12,10 +12,12 @@ Implementar soluções práticas que melhorem a eficiência dos processos de neg
 ### 📖 Conteúdo
 <h4>1. Introdução ao RPA
 O que é RPA?
-Benefícios e desafios da automação de processos.
-2. Ferramentas de Automação
+Benefícios e desafios da automação de processos.</h4>
+
+<h4>2. Ferramentas de Automação
 Visão geral das ferramentas populares de RPA.
-Instalação e configuração do ambiente de desenvolvimento Python.
-3. Programação em Python para RPA
+Instalação e configuração do ambiente de desenvolvimento Python.</h4>
+
+<h4>3. Programação em Python para RPA
 Fundamentos de programação em Python.
 Bibliotecas úteis para automação (Selenium, PyAutoGUI, etc.).</h4>
