@@ -10,12 +10,12 @@ Desenvolver scripts de automação para tarefas repetitivas e manuais.
 Implementar soluções práticas que melhorem a eficiência dos processos de negócios.</h4>
 
 ### 📖 Conteúdo
-1. <h4>Introdução ao RPA
-O que é RPA?</h4>
+<h4>1. Introdução ao RPA
+O que é RPA?
 Benefícios e desafios da automação de processos.
-2. <h4>Ferramentas de Automação
+2. Ferramentas de Automação
 Visão geral das ferramentas populares de RPA.
-Instalação e configuração do ambiente de desenvolvimento Python.</h4>
-3. <h4>Programação em Python para RPA
+Instalação e configuração do ambiente de desenvolvimento Python.
+3. Programação em Python para RPA
 Fundamentos de programação em Python.
 Bibliotecas úteis para automação (Selenium, PyAutoGUI, etc.).</h4>
