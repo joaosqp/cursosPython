@@ -1,5 +1,4 @@
-# 📚 Cursos em Andamento
-## 🤖 Robotic Process Automation: RPA Automação com Python
+# 🤖 Robotic Process Automation: RPA Automação com Python
 ### 📝 Descrição
 <h4>Este repositório contém materiais e anotações do curso Robotic Process Automation: RPA automação com Python. O curso aborda os fundamentos da automação de processos utilizando a linguagem Python, permitindo que os alunos desenvolvam habilidades práticas para implementar soluções de automação em ambientes reais.</h4>
 
