@@ -39,23 +39,38 @@ for item in listaProdutos:
             nomeProduto = item.find_element(By.CLASS_NAME, "sc-gQSkpc").text
         except Exception:
             pass  
-    # Verifica se o nome do produto foi encontrado antes de imprimir
-    if nomeProduto:
-        print(nomeProduto)
+
         
-#------------------------------------------------------------
+# Precisa encontrar o preço do produto usando várias classes diferentes
     if precoProduto == "":
         try:
             precoProduto = item.find_element(By.CLASS_NAME, "sc-dcJsrY").text
         except Exception:
             pass
-    if precoProduto:
-        print(precoProduto)
-
-    if urlProduto == "":
+    elif precoProduto == "":
         try:
-            urlProduto = item.find_element(By.CLASS_NAME, "sc-dcJsrY").text
+            precoProduto = item.find_element(By.CLASS_NAME, "eLxcFM").text
         except Exception:
             pass
-    if urlProduto:
-        print(urlProduto)
+    elif precoProduto == "":
+        try:
+            precoProduto = item.find_element(By.CLASS_NAME, "sc-eHsDsR").text
+        except Exception:
+            pass        
+    elif precoProduto == "":
+        try:
+            precoProduto = item.find_element(By.CLASS_NAME, "eGPZvr").text
+        except Exception:
+            pass            
+        
+# precisa encontrar a URL do produto usando várias classes diferentes
+    if urlProduto == "":
+        try:
+            urlProduto = item.find_element(By.TAG_NAME, "a").get_attribute("href")
+        except Exception:
+            pass
+    else:
+        print("Não foi possível encontrar a URL do produto")
+        
+    print(nomeProduto ,"-", precoProduto)
+    print(urlProduto)
